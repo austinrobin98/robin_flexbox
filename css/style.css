@@ -11,7 +11,7 @@ body {
    Navigation bar based on Navigation Bar preset from Flexbox Playground.
     */
 .navbar {
-    display: flex;
+    display: flex; /* I used display: flex to arrange the logo and navigation links horizontally within the navigation bar */
     justify-content: space-between; /* Distributes space between logo and navigation links */
     align-items: center; /* Vertically centers the logo and navigation links */
     color: #392750; /* Sets the text color of the navigation bar */
@@ -33,6 +33,7 @@ body {
     margin: 0; /* Removes the default margin from the list */ 
 }
 
+/* This selector targets the anchor tags within the navigation links. */
 .navlinks a {
     text-decoration: none; /* Removes the underline from the navigation links */
     color: #392750; /* Sets the text color of the navigation links */
