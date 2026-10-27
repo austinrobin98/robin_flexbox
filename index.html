@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barry's Giveaways | Flexbox Showcase</title>
+<!-- Connects this HTML page to my external CSS stylesheet.
+     The browser looks inside the css folder for style.css,
+     which controls the appearance of this webpage. -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- This h1 element displays the main heading of the webpage.
+     It identifies the page as a Flexbox showcase for Barry's Giveaways
+     and tells users what the page is about. -->
+    <h1>Barry's Giveaways Flexbox Showcase</h1>
+<!-- This paragraph provides a brief introduction to the webpage and its purpose. -->
+    <p>
+        Welcome to Barry's Giveaways! This webpage demonstrates the use of Flexbox for layout and design purposes.
+    </p>
+
+<!-- The main element contains the primary content of my webpage.
+     It groups my three Flexbox demonstrations together and helps
+     browsers and screen readers understand the structure of the content. -->
+    <main>
+        <section>
+            <!-- This section demonstrates a navigation bar using Flexbox. 
+            The section element groups related content together, while
+            the h2 identifies the navigation bar as the first Flexbox demonstration. -->
+            <h2>1. Navigation Bar</h2>
+            <!-- The nav element represents the navigation bar, and the div with class "logo" displays the website's name.
+                 The ul with class "navlinks" contains the navigation links as list items.
+                 The anchor elements create clickable links, while href attributes specify the destination URLs. -->
+            <nav class="navbar">
+                <div class="logo">Barry's Giveaways</div>
+                <ul class="navlinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <!-- This section demonstrates a centered hero section using Flexbox. 
+             The section element groups related content together, while
+             the h2 identifies the hero section as the second Flexbox demonstration. -->
+            <h2>2. Centered Hero Section</h2>
+            <!-- The div with class "hero" creates a container for the hero content.
+                 Flexbox will be used to center the content both horizontally and vertically.
+                 The h3 element inside it displays the heading for the hero section. -->
+            <div class="hero">
+                <h3>Centered Hero Section</h3>
+            </div>
+            
+        </section>
+
+        <section>
+            <!-- This section demonstrates responsive cards using Flexbox. 
+             The section element groups related content together, while
+             the h2 identifies the responsive cards as the third Flexbox demonstration. -->
+            <h2>3. Responsive Cards</h2>
+            <!-- The div with class "card-row" contains individual cards as div elements with class "card".
+                 Flexbox will be used to arrange the cards responsively in a row. -->
+            <div class="card-row">
+                <div class="card">Community</div>
+                <div class="card">Events</div>
+                <div class="card">Giveaways</div>
+                <div class="card">News</div>
+            </div>   
+
+        </section>
+
+    <!-- Reflection Section -->
+    <section>
+        <h2>Reflection</h2>
+        <p>
+            Throughout this assignment, I practiced using CSS Flexbox to create a navigation bar, centered hero, and responsive
+            card row for my Barry's Giveaways webpage while learning how to control positioning and spacing. The responsive card row was
+            the most challenging layout for me because I had difficulty not only with the coding itself but also with 
+            figuring out the appropriate spacing between each card. I wanted the cards evenly spaced without stretching or
+            causing display issues. I also had to revisit the gap and flex-wrap properties several times to better understand how they worked.
+            Although reviewing material isn't a bad thing, I felt I should have understood these concepts better by this point in the semester.
+            One example of a navigation bar I've seen outside of class is Facebook, which uses a navigation bar
+            to help users move between different sections of the app. Another example I've seen is on a Pokémon giveaway
+            Facebook page I'm part of, where a large title appears over a background image to introduce the page and explain what it's about.
+            I've also noticed responsive card layouts on Indeed, where job listings are organized into
+            individual sections that adjust depending on the screen size.
+        </p>
+    </section>
+    </main>
+    
+    <footer>
+        <!-- The footer element contains information about the webpage, such as copyright details.
+             It helps users understand the ownership and rights associated with the content. -->
+        <p>&copy; 2026 Barry's Giveaways. All rights reserved.</p>
+    </footer>
+</body>
+</html>

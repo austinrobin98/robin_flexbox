@@ -1,0 +1,74 @@
+/* This is the external CSS stylesheet for Barry's Giveaways Flexbox Showcase.
+   It controls the appearance and layout of the webpage using Flexbox. */
+
+/* Webpage background styling.
+   Sets the overall background color for the entire webpage.*/
+body {
+    background-color: #f8f5fc; /* Sets the background color of the webpage */
+}
+
+/* Navigation bar styling.
+   Navigation bar based on Navigation Bar preset from Flexbox Playground.
+    */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distributes space between logo and navigation links */
+    align-items: center; /* Vertically centers the logo and navigation links */
+    color: #392750; /* Sets the text color of the navigation bar */
+    background-color: #e8ddf5; /* Sets the background color of the navigation bar */
+    padding: 16px 24px; /* Sets the padding inside the navigation bar */
+    border-radius: 12px; /* Sets the border radius of the navigation bar */
+    flex-direction: row; /* Arranges the logo and navigation links in a row */
+    flex-wrap: wrap; /* Allows the navigation bar items to wrap to the next line if needed */
+}
+
+/* Navlinks styling.
+   Styles the navigation links within the navigation bar using Flexbox to arrange them horizontally.
+ */
+.navlinks {
+    display: flex;
+    gap: 20px; /* Adds space between the navigation links */
+    list-style: none; /* Removes the default bullet points from the list */
+    padding: 0; /* Removes the default padding from the list */
+    margin: 0; /* Removes the default margin from the list */ 
+}
+
+.navlinks a {
+    text-decoration: none; /* Removes the underline from the navigation links */
+    color: #392750; /* Sets the text color of the navigation links */
+}
+
+/* Hero section styling.
+   Styles the hero section using Flexbox to center the content both horizontally and vertically.
+ */
+.hero {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    min-height: 300px; /* Sets a minimum height for the hero section */
+    color:#392750; /* Sets the text color of the hero section */
+    background-color: #e3f2fd; /* Sets the background color of the hero section */
+    border-radius: 12px; /* Sets the border radius of the hero section */
+}
+
+/* Card row styling.
+   Styles the card row using Flexbox to arrange the individual cards responsively in a row.
+ */
+.card-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line if needed */
+    gap: 20px; /* Adds space between the cards */
+    justify-content: center; /* Centers the cards horizontally */
+}
+
+/* Individual card styling.
+   Styles each card within the card row.
+ */
+.card {
+    background-color: #f3e8fb; /* Sets the background color of the card */
+    color: #392750; /* Sets the text color of the card */
+    padding: 20px; /* Sets the padding inside the card */
+    border-radius: 12px; /* Sets the border radius of the card */
+    flex: 1 1 200px; /* Allows the card to grow and shrink, with a starting width of 200px */
+    text-align: center; /* Centers the text inside the card */
+}
